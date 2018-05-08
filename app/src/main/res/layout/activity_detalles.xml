@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.issac.fitnessandroid.DetallesActivity"
+    android:background="@drawable/back">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setup_profile_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="5dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/setup_username"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignEnd="@+id/setup_fullname"
+        android:layout_alignLeft="@+id/setup_fullname"
+        android:layout_alignRight="@+id/setup_fullname"
+        android:layout_alignStart="@+id/setup_fullname"
+        android:layout_below="@+id/setup_profile_image"
+        android:layout_marginTop="11dp"
+        android:background="@color/lightW"
+        android:drawableLeft="@drawable/username"
+        android:ems="10"
+        android:hint="Nombre de Usuario"
+        android:inputType="textMultiLine"
+        android:padding="14dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/setup_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_below="@+id/setup_username"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/lightW"
+        android:drawableLeft="@drawable/name"
+        android:ems="10"
+        android:hint="Nombre Completo"
+        android:inputType="textMultiLine"
+        android:padding="14dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/setup_country_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignLeft="@+id/setup_fullname"
+        android:layout_alignStart="@+id/setup_fullname"
+        android:layout_below="@+id/setup_fullname"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="11dp"
+        android:background="@color/lightW"
+        android:drawableLeft="@drawable/country"
+        android:ems="10"
+        android:hint="País"
+        android:inputType="textMultiLine"
+        android:padding="14dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/setinformation_button"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_alignLeft="@+id/setup_information_button"
+        android:layout_alignStart="@+id/setup_information_button"
+        android:layout_below="@+id/setup_information_button"
+        android:layout_marginTop="11dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/button_edit"
+        android:textColor="@color/lightW"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/setup_information_button"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/setup_country_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="11dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/button_cancel"
+        android:textColor="@color/lightW"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

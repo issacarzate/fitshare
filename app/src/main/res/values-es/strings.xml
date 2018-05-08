@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FitnessAndroid</string>
+    <string name="tab_text_1">Rutinas</string>
+    <string name="tab_text_2">Ejercicios</string>
+    <string name="tab_text_3">Mi Perfil</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="section_format">Hola mundo</string>
+    <string name="title_activity_login">Ingresar</string>
+    <string name="prompt_email">Correo</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Ingresar</string>
+    <string name="action_sign_in_short">Ingresar</string>
+    <string name="error_invalid_email">Mail incorrecto</string>
+    <string name="error_invalid_password">Contraseña incorrecta</string>
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string>
+    <string name="error_field_required">Campo requerido</string>
+    <string name="permission_rationale">Es necesaior acceso a contactos</string>
+    <string name="title_activity_room_pic">Cuarto</string>
+    <string name="button_Tutoriales">Tutoriales</string>
+    <string name="button_Search_User">Buscar usuario</string>
+    <string name="button_Account">Cuenta</string>
+    <string name="button_logout">Salir</string>
+    <string name="myName">"Nombre: "</string>
+    <string name="myState">"Estado: "</string>
+    <string name="myCountry">"País: "</string>
+    <string name="myBirthday">"Cumpleaños: "</string>
+    <string name="myGenre">"Género: "</string>
+    <string name="button_state">Actualizar Estado</string>
+    <string name="butto_register">Registrarse</string>
+    <string name="prompt_confirm_password">Confirmar Contraseña</string>
+    <string name="prompt_complete_name">Nombre</string>
+    <string name="prompt_username">Nombre de Usuario</string>
+    <string name="prompt_country">País</string>
+    <string name="prompt_status">Status</string>
+    <string name="button_save_user_info">Guardar</string>
+    <string name="text_routine">Comparte tu rutina perfecta</string>
+    <string name="button_send">Enviar</string>
+    <string name="search_box">Busca Aquí...</string>
+    <string name="myUsername">"Nombre de Usuario: "</string>
+    <string name="user_upload_date">"Fecha de Subidad: "</string>
+    <string name="button_edit">Editar</string>
+    <string name="button_delete">Eliminar</string>
+    <string name="button_update">Actualizar</string>
+    <string name="button_cancel">Cancelar</string>
+    <string name="text_birthday">Cumpleaños</string>
+</resources>
